@@ -1,8 +1,6 @@
 # OpenBook - Andrei Stan 331CC
 
-## Diagrama
-
-- 
+![Untitled-2025-03-29-1929(1)](https://github.com/user-attachments/assets/c277a14a-cbda-468a-acf4-cee1ff14a550)
 
 ## Descriere Functionalitate Hardware
 - Tableta este controlata prin cele 3 butoane
