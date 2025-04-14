@@ -1357,7 +1357,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <attribute name="SPICEMODEL" value="NONE" x="77.99" y="19.67" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="77.99" y="19.67" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C25" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" package="ESP32_WROVER_EAGLE-LTSPICE_C0402" value="100nF" x="148.06" y="52.69" smashed="yes" rot="R270">
+<element name="C25" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" package="ESP32_WROVER_EAGLE-LTSPICE_C0402" value="4.7uF" x="148.06" y="52.69" smashed="yes" rot="R270">
 <attribute name="DATASHEET" value="https://ro.mouser.com/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf" x="148.06" y="52.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://ro.mouser.com/ProductDetail/KEMET/C0402C475K8PACTU?qs=sGAEpiMZZMsh%252B1woXyUXj%252BeMYF%2FJh1ZHWLnD7xub%252BoY%3D" x="148.06" y="52.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="147.495" y="57.025" size="1.016" layer="25" rot="R270"/>
@@ -3148,18 +3148,20 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <contactref element="C3" pad="1"/>
 <wire x1="27.7" y1="108.86" x2="27.101" y2="109.459" width="0.1524" layer="1"/>
 <wire x1="27.101" y1="109.459" x2="25.75" y2="109.459" width="0.1524" layer="1"/>
-<wire x1="22.25" y1="109.459" x2="23.7744" y2="109.459" width="0.1524" layer="1"/>
-<wire x1="23.7744" y1="109.459" x2="25.75" y2="109.459" width="0.1524" layer="1"/>
 <wire x1="21.039" y1="109.459" x2="22.25" y2="109.459" width="0.1524" layer="1"/>
 <wire x1="20.36" y1="108.78" x2="21.039" y2="109.459" width="0.1524" layer="1"/>
 <wire x1="23.7744" y1="79.5528" x2="23.7744" y2="71.0184" width="0.1524" layer="1"/>
 <wire x1="23.7744" y1="108.3184" x2="23.7744" y2="79.5528" width="0.1524" layer="16"/>
-<wire x1="23.7744" y1="109.459" x2="23.7744" y2="108.3184" width="0.1524" layer="1"/>
+<wire x1="23.7744" y1="108.3184" x2="23.7744" y2="109.1" width="0.1524" layer="1"/>
 <wire x1="23.7744" y1="71.0184" x2="23.85" y2="70.99" width="0.1524" layer="1"/>
 <via x="23.7744" y="79.5528" extent="1-16" drill="0.35">
 </via>
 <via x="23.7744" y="108.3184" extent="1-16" drill="0.35">
 </via>
+<wire x1="22.25" y1="109.459" x2="23.4154" y2="109.459" width="0.1524" layer="1"/>
+<wire x1="23.4154" y1="109.459" x2="23.7744" y2="109.1" width="0.1524" layer="1"/>
+<wire x1="23.7744" y1="109.1" x2="24.1334" y2="109.459" width="0.1524" layer="1"/>
+<wire x1="24.1334" y1="109.459" x2="25.75" y2="109.459" width="0.1524" layer="1"/>
 </signal>
 <signal name="VBAT">
 <contactref element="U2" pad="2"/>

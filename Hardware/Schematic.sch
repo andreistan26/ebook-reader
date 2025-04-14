@@ -2943,7 +2943,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 <part name="GND44" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" deviceset="GND" device=""/>
 <part name="GND45" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" deviceset="GND" device=""/>
 <part name="C24" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" deviceset="ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="100nF"/>
-<part name="C25" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" deviceset="ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="100nF"/>
+<part name="C25" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" deviceset="ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="4.7uF"/>
 <part name="IC2" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" deviceset="XC6220A331MR-G" device=""/>
 <part name="C26" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" deviceset="ESP32_WROVER_EAGLE-LTSPICE_C" device="C0402" value="4.7uF"/>
 <part name="GND46" library="DeskAssistant v19 v2" library_urn="urn:adsk.wipprod:fs.file:vf.c-uWg7zGRE2SlFihlENo6g" deviceset="GND" device=""/>
@@ -3616,27 +3616,27 @@ Boot / IO Button</text>
 </instance>
 <instance part="D2" gate="G$1" x="-7.62" y="-139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="-10.16" y="-144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-2.54" y="-144.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="-2.54" y="-149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D4" gate="G$1" x="0" y="-139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="-2.54" y="-144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="5.08" y="-144.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="2.54" y="-137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="5.08" y="-149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D6" gate="G$1" x="7.62" y="-139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="5.08" y="-144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="12.7" y="-144.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="10.16" y="-137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="12.7" y="-149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D8" gate="G$1" x="15.24" y="-139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="12.7" y="-144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="20.32" y="-144.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="17.78" y="-137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="20.32" y="-149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D10" gate="G$1" x="22.86" y="-139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.32" y="-144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="27.94" y="-144.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="25.4" y="-137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="27.94" y="-149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="D11" gate="G$1" x="30.48" y="-139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="27.94" y="-144.78" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="35.56" y="-144.78" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="33.02" y="-137.16" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="35.56" y="-149.86" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND18" gate="1" x="-10.16" y="-154.94" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="-157.48" size="1.778" layer="96"/>
@@ -3649,8 +3649,6 @@ Boot / IO Button</text>
 <instance part="R5" gate="G$1" x="22.86" y="-127" smashed="yes" rot="R90">
 <attribute name="NAME" x="21.3614" y="-130.81" size="1.778" layer="95" rot="R90"/>
 <attribute name="NAME" x="21.3614" y="-130.81" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="26.162" y="-130.81" size="1.778" layer="96" rot="R90"/>
-<attribute name="VALUE" x="26.162" y="-130.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R6" gate="G$1" x="30.48" y="-127" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.9814" y="-130.81" size="1.778" layer="95" rot="R90"/>
